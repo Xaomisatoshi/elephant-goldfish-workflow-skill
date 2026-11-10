@@ -1,0 +1,15 @@
+interface:
+  display_name: elephant goldfish workflow
+  short_description: Leitet strukturierte Denk- und Planungs-Workflows nach dem Elephant-Goldfish-Modell
+    (EGM). Aktivieren, wenn der Nutzer komplexe Konzepte, Systemdesigns, Features
+    oder Pläne entwickeln und durch eine unvoreingenommene Kritik (Goldfish Review)
+    validieren lassen möchte, bevor die finale Ausarbeitung erfolgt.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
